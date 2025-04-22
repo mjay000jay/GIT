@@ -1,23 +1,137 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:regular,italic,700);
 
-body{
+body {
     background-color: #f1edec;
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
-    color: #292828;
+    color: #353434;
+    font-size: large;
 }
 .castle1 {
-    background-image: url("images/castle3.jpg"); 
-    background-size:cover; 
-    background-position: center; 
+    background-image: url("images/castle4.jpg"); 
+    background-size: cover; 
+    background-position: center;
     background-repeat: no-repeat; 
     text-align: center;
     font-family: 'Libre Baskerville', serif;
-    font-size:x-large;
-    color: rgb(255, 255, 255);
-    text-shadow: 1px 1px 5px rgb(0, 0, 0);
-    padding: 100px 20px; 
-    height: 200px;
+    font-size: large;
+    color: #faf8df;
+    text-shadow: 1px 1px 5px rgb(2, 2, 2);
+    padding: 100px 0px; 
+    height: 180px;
+}
+.castle1 p {
+    font-size: 17px;
+    color: #faf8df;
+    text-shadow: 1px 1px 5px rgb(1, 1, 1);
+}
+
+#toc {
+    background-color: #5e0d0d; /* Red bar */
+    padding: 11px 0;
+    font-family: Arial, sans-serif;
+}
+
+#toc h2 {
+    display: none; /* Hides the heading if you want it clean like a navbar */
+}
+
+#toc ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Space between items */
+    flex-wrap: wrap; /* So it wraps nicely on small screens */
+}
+
+#toc li {
+    font-weight: bold;
+}
+
+#toc a {
+    text-decoration: none;
+    color: rgb(255, 199, 199);
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+#toc a:hover {
+    color: #f7e097; /* Light yellow hover color */
+    text-decoration: underline;
+}
+div .castle1{
+
+    text-decoration: none;
+}
+
+
+/* Header styles */
+h2 {
+    font-size: 1.8em;
+    color: #004d99;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #004d99;
+    padding-bottom: 5px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+}
+/* Link styling */
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0.5, 0.5, 0.5, 0.5);
+    border-radius: 8px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Style for each heading (h2) */
+.content h2 {
+    color: #383838;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #222221;
+    padding-bottom: 5px;
+}
+
+/* Style for paragraphs inside .content */
+.content p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #353434;  /* Dark gray text color */
+    margin-bottom: 20px;
+}
+
+/* Style for the 'See more...' links inside paragraphs */
+.content a {
+    font-style: italic;
+    color: #5c2424;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+/* Hover effect for the links */
+.content a:hover {
+    color: #242423;  /* Light yellow on hover */
+    text-decoration: underline;
 }
