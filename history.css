@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: url('https://c1.wallpaperflare.com/preview/830/595/785/bundestag-reichstag-berlin-bundestagswahl.jpg') no-repeat center center fixed;
+    background-size:cover;
+    image-resolution: from-image;
+    text-align: center;
+}
+.container {
+    background-color: rgba(32, 32, 32, 0.877);
+    margin: 50px auto;
+    padding: 30px;
+    width: 80%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #fffcdf4d;
+    color: #fff;
+}
+
+h2 {
+    margin-top: 60px;
+    text-align: left;
+    border-bottom: 2px solid #ffffff; 
+    padding-bottom: 5px; 
+    margin-bottom: 15px; 
+    color: #ffec7f;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #ffec7f;
+}
+
+ul, p {
+    text-align: left;
+    line-height: 1.6;
+    font-size: 18px;
+}
+.home-link {
+    margin-top: 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #ffec7f;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+    color: rgb(236, 164, 164);
+}
