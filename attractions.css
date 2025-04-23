@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff8b6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.attractions-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid with flexible columns */
+    gap: 20px; /* Space between cards */
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1200px; /* Limit the gallery width */
+}
+
+.attraction-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for the card */
+    overflow: hidden; /* Ensure content stays within the card */
+    text-align: center;
+    padding: 15px;
+}
+
+.attraction-card img {
+    width: 100%; /* Make the image fill the card width */
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover; /* Ensure the image maintains its aspect ratio */
+    border-bottom: 2px solid #ddd; /* Add a separator below the image */
+}
+
+.attraction-card h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.attraction-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #530101;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.back-link:hover {
+    color: rgb(255, 235, 119);
+}
